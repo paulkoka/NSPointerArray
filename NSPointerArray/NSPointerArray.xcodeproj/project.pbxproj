@@ -13,6 +13,7 @@
 		DA632D4920820BF600AD35BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA632D4820820BF600AD35BE /* Assets.xcassets */; };
 		DA632D4C20820BF600AD35BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA632D4A20820BF600AD35BE /* LaunchScreen.storyboard */; };
 		DA632D4F20820BF600AD35BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA632D4E20820BF600AD35BE /* main.m */; };
+		DA632DA1208498E900AD35BE /* KPIobject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA632DA0208498E900AD35BE /* KPIobject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DA632D4B20820BF600AD35BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA632D4D20820BF600AD35BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA632D4E20820BF600AD35BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA632D9F208498E900AD35BE /* KPIobject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPIobject.h; sourceTree = "<group>"; };
+		DA632DA0208498E900AD35BE /* KPIobject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPIobject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				DA632D4020820BF500AD35BE /* AppDelegate.m */,
 				DA632D4220820BF500AD35BE /* ViewController.h */,
 				DA632D4320820BF500AD35BE /* ViewController.m */,
+				DA632D9F208498E900AD35BE /* KPIobject.h */,
+				DA632DA0208498E900AD35BE /* KPIobject.m */,
 				DA632D4520820BF500AD35BE /* Main.storyboard */,
 				DA632D4820820BF600AD35BE /* Assets.xcassets */,
 				DA632D4A20820BF600AD35BE /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA632D4420820BF500AD35BE /* ViewController.m in Sources */,
+				DA632DA1208498E900AD35BE /* KPIobject.m in Sources */,
 				DA632D4F20820BF600AD35BE /* main.m in Sources */,
 				DA632D4120820BF500AD35BE /* AppDelegate.m in Sources */,
 			);
